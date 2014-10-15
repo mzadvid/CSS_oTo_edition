@@ -1,0 +1,539 @@
+.unselectable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+div.css_name {
+	display : block;
+	font-family : Verdana,Geneva,sans-serif;
+	font-size : 14px;
+	color : rgba(102,102,102,1);
+	margin : 10px 0px 3px 8px;
+}
+
+div.css_properties {
+	font-family : Verdana,Geneva,sans-serif;
+	font-size : 11px;
+	color : #333;
+	line-height : 18px;
+	display : block;
+	border : #CCC 2px solid;
+	background-color : #EAEAEA;
+	border-radius : 5px;
+	width : 820px;
+	height : auto;
+	padding : 3px 3px 3px 6px;
+}
+
+div.css_properties a {
+	color : #333;
+	text-decoration : none;
+}
+
+div.css_property {
+	clear : both;
+	display : block;
+	margin : 0px 0px 2px 0px;
+	border-radius : 3px;
+	min-height : 18px;
+	height : auto;
+}
+
+div.css_property:hover {
+	background-color : #CCCCCC;
+}
+
+div.css_property_btn {
+	position : relative;
+	display : block;
+	float : left;
+	vertical-align : top;
+	width : auto;
+	height : 18px;
+}
+ 
+div.css_property_btn div {
+	display:block;
+	float:left;
+}
+
+div.css_property_name {
+	position : relative;
+	display : block;
+	float : left;
+	vertical-align : top;
+	width : 130px;
+	min-height : 18px;
+	height : auto;
+	padding-left : 5px;
+}
+
+div.css_property_form {
+	position : relative;
+	display : block;
+	float : left;
+	vertical-align : top;
+	min-height : 18px;
+	height : auto;
+	width : 360px;
+}
+
+div.property_value {
+	margin : 0px 0px 0px 0px;
+	position : relative;
+	display : block;
+	float : left;
+	white-space : nowrap;
+	max-height : 18px;
+	width : auto;
+}
+
+.value_separator {
+	margin : 0px 0px 0px 0px;
+	position : relative;
+	display : block;
+	float : left;
+	max-height : 18px;
+	width : 5px;
+}
+
+div.property_value div {
+	white-space : normal;
+	float : left;
+}
+
+div.css_property_form .property_value_list {
+	margin : 0px 1px 0px 1px;
+	position : relative;
+	display : block;
+	float : left;
+	height : 18px;
+	width : auto;
+}
+
+div.css_property_explain {
+	position : relative;
+	display : block;
+	float : left;
+	vertical-align : top;
+	width : 260px;
+	min-height : 18px;
+	height : auto;
+}
+
+div.css_property_explain div {
+	position : absolute;
+	width : 260px;
+	height : 18px;
+	overflow : hidden;
+	opacity : 0.5;
+}
+
+div.css_property_explain div div {
+	position : relative;
+	display : block;
+}
+
+div.css_property:hover div.css_property_explain div {
+	opacity : 1;
+}
+
+div.css_property_explain:hover div {
+	overflow : visible;
+	width : 320px;
+	border : #CCC 2px solid;
+	background-color : #EAEAEA;
+	border-radius : 5px;
+	box-shadow : #666666 2px 2px 3px;
+	padding : 5px 10px 5px 10px;
+	margin : -5px 0px 0px -10px;
+	z-index : 2;
+	height : auto;
+}
+
+div.css_property_explain:hover div div {
+	border : none;
+	background : none;
+	margin : 0px;
+	padding : 5px 10px 5px 10px;
+	height : auto;
+	width : auto;
+	border-radius : none;
+	box-shadow : none;
+}
+
+div.css_property_explain div div.css_property_explain_navigators {
+	background-color : white;
+	border-radius : 10px;
+}
+
+div.css_property_explain_navigators img {
+	width : 25px;
+	height : 25px;
+	margin : 2px 2px 2px 2px;
+}
+
+div.css_property_explain div div.aide_value_form {
+	padding : 0px;
+}
+
+div.css_property_explain div div.aide_value_form div {
+	border : #F00 1px solid;
+	padding : 5px 10px 5px 10px;
+}
+
+div#InfosPage {
+	position : relative;
+	display : block;
+	float : left;
+	width : auto;
+	border : 1px solid #CCCCCC;
+	padding : 2px;
+	height : 11px;
+	line-height : 9px;
+	margin : -0.5px 0px 0px 0px;
+	background-color : white;
+	box-shadow : #666666 0px 0.5px 0.2px inset;
+}
+
+div#InfosPage a {
+	padding : 0px 2px 0px 2px;
+}
+
+div#InfosPage:hover {
+	border : #CCC 2px solid;
+	background-color : #EAEAEA;
+	padding : 0px;
+	box-shadow : #666666 2px 2px 3px;
+	margin : 1px 0px 0px 0px;
+	height : 11px;
+	min-height : 11px;
+	max-height : 11px;
+}
+
+div#InfosPage a.InfosPageA {
+	height : 11px;
+	min-height : 11px;
+	max-height : 11px;
+	line-height : 11px;
+}
+
+div#InfosPage:hover a.InfosPageA {
+	background-color : #eaeaea;
+	padding : 0px 2px 10px 4px;
+	display : block;
+	float : left;
+	color : #000;
+}
+
+div#InfosPage:hover > div {
+	display:block;
+}
+
+div#InfosPage div {
+	position : absolute;
+	display : none;
+	z-index : 1;
+	top : 0px;
+	margin : 0px 0px 0px 0px;
+	
+}
+
+div#InfosPage div ul {
+	position:absolute;
+	border : #CCC 2px solid;
+	background-color : #EAEAEA;
+	border-radius : 5px;
+	list-style-type : none;
+	margin : 12px 15px 0px 0px;
+	left : 0px;
+	width : 120px;
+	box-shadow : #666666 2px 2px 3px;
+	padding : 0px 7px 4px 12px;
+}
+
+div#InfosPage div ul li {
+	line-height : 14px;
+	padding : 2px;
+	text-align : left;
+}
+
+div#InfosPage div ul li.selected {
+	background : #ffffff;
+	border-radius : 10px;
+}
+
+div#InfosPage div ul li a {
+	display : block;
+	padding : 2px 4px 2px 4px;
+}
+
+div#InfosPage div ul li:hover > a {
+	background-color : #CCC;
+/*	padding : 2px 30px 2px 4px;
+*/
+}
+
+div#InfosPage div ul li ul {
+	display : none;
+	position : absolute;
+	float : left;
+	padding : 0px;
+	left:112px;
+	margin : -25px 0px 0px 0px;
+	width : 320px;
+	border : #CCC 5px solid;
+}
+
+div#InfosPage div ul li ul li {
+	padding : 2px 8px 2px 8px;
+}
+
+div#InfosPage div ul li:hover {
+	z-index:2;
+}
+div#InfosPage div ul li:hover > ul {
+	display : block;
+	position:absolute;
+	z-index:3;
+}
+div#InfosPage div ul ul li:hover {
+	z-index:4;
+}
+div#InfosPage div ul ul li:hover > ul {
+	z-index:5;
+}
+div#InfosPage div ul ul ul li:hover {
+	z-index:6;
+}
+div#InfosPage div ul ul ul li:hover > ul {
+	z-index:7;
+}
+ 
+ 
+
+div#InfosPage.units_list div ul {
+	width : 50px;
+}
+
+div#InfosPage.units_list div ul ul {
+	width : 320px;
+	left : 42px;
+}
+
+div#InfosPage.options_list div ul {
+	width : 145px;
+}
+
+div#InfosPage.options_list div ul ul {
+	width : 320px;
+	left : 138px;
+}
+
+div#InfosPage.combine div ul {
+	width : 320px;
+}
+
+div#InfosPage.menu_proprietes_newdef {
+	position : relative;
+	display : block;
+	float : left;
+	width : auto;
+	border : none;
+	padding : 0px 2px 0px 0px;
+	margin : 0px;
+	background : none;
+	box-shadow : none;
+}
+
+div#InfosPage.menu_proprietes_newdef a {
+	padding : 0px;
+}
+
+div#InfosPage.menu_proprietes_newdef:hover {
+	border : none;
+	background-color : #EAEAEA;
+	padding : 0px;
+	box-shadow : none;
+	margin : 0px;
+}
+
+div#InfosPage.menu_proprietes_newdef:hover a.InfosPageA {
+	padding : 0px;
+}
+
+
+div#InfosPage.menu_proprietes_newdef div ul {
+	width : 180px;
+}
+
+div#InfosPage.menu_proprietes_newdef div ul li ul {
+	left:172px;
+	width : 160px;
+}
+
+
+div#InfosPage.menu_proprietes_newdef div ul li ul li ul {
+	position:absolute;
+	left:152px;
+}
+
+
+
+
+
+div#InfosPage.menu_proprietes {
+	position : relative;
+	display : block;
+	float : left;
+	width : auto;
+	height : 18px;
+	border : none;
+	padding : 0px 2px 0px 0px;
+	margin : 0px;
+	background : none;
+	box-shadow : none;
+}
+
+div#InfosPage.menu_proprietes a {
+	padding : 0px;
+}
+
+div#InfosPage.menu_proprietes:hover {
+	border : none;
+	background-color : none;
+	padding : 0px;
+	box-shadow : none;
+	margin : 0px;
+}
+
+div#InfosPage.menu_proprietes:hover a.InfosPageA {
+	padding : 0px;
+}
+
+
+div#InfosPage.menu_proprietes div ul {
+	left:-10px;
+	margin-top:17px;
+	width : 170px;
+}
+
+
+
+div#InfosPage.menu_proprietes div ul li ul {
+	margin-top:-20px;
+	left:170px;
+	width : 160px;
+}
+
+
+div#InfosPage.menu_proprietes div ul li ul li ul {
+	position:absolute;
+	left:152px;
+}
+
+div#InfosPage div ul ul.explain, div#InfosPage div ul ul ul.explain {
+	width:auto;	
+}
+
+div#InfosPage div ul.explain li {
+	border : #F00 1px solid;
+	width:320px;
+}
+
+
+
+div#InfosPage span.Menu_Nav {
+	position:absolute; 
+	display:none; 
+	text-align:center; 
+	width:10px; 
+	height:26px; 
+	padding:1px 3px 1px 3px; 
+	margin:0px 0px 0px -17px ;
+	background:#AFAFAF;
+	border-radius:5px;
+ 	border:2px solid #CCC;	
+}
+div#InfosPage span.Menu_Nav a {
+	display:block;
+	font-size:8px; 
+	float:left; 
+	height:10px; 
+	width:10px; 
+	overflow:hidden;
+	background:white; 
+	margin:2px 2px 0px 0px;
+	border-radius:3px;
+}
+div#InfosPage ul li span.Menu_Nav {
+	border-radius:5px 0px 0px 5px;
+	border:none;
+	margin:-14px 0px 0px 0px ;
+	width:24px;
+	height:12px; 
+	 
+}
+div#InfosPage ul li span.Menu_Nav a {
+}
+
+
+div#InfosPage div:hover > span.Menu_Nav {
+	display:block; 
+}
+
+div#InfosPage li:hover > span.Menu_Nav {
+	display:block; 
+}
+
+input {
+	height : 11px;
+}
+
+input.nomodif {
+	border : none;
+	background : transparent;
+}
+
+input.numeric {
+	max-width : 50px;
+	min-width : 5px;
+	padding : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+	position : relative;
+	display : block;
+	float : left;
+	font-size : 10px;
+	text-align : center;
+}
+
+input.select_color {
+	width : 40px;
+	height : 13px;
+	
+	padding : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+	position : relative;
+	display : block;
+	float : left;
+	font-size : 10px;
+	text-align : center;
+}
+
+div.select_color_tools {
+	display : none;
+}
+
+div.select_color_on div.select_color_tools {
+	display : block;
+}
+
+div.select_color {
+	display : block;
+	float : left;
+	
+	background-image : url(jscolor/bg_opacity.gif);
+}
